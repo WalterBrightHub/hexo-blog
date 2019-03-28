@@ -181,4 +181,7 @@ widgets:
     type: playlist    # song （单曲） album （专辑） playlist （歌单） search （搜索）
     id: 2724669959     # 歌曲/专辑/歌单 ID
 
+
+disqus_shortname: walterb
+
 footer: '浙ICP备17027810号'
