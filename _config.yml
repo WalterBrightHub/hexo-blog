@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 布洛格
-subtitle: 你他妈少在这里妖言惑众
-description:
-keywords:
+title: 水明
+subtitle: 哒哒哒
+description: 水明的博客
+keywords: 前端
 author: 水明
 language: zh-CN
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -73,115 +73,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material-x
+theme: volantis-wb
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: https://github.com/WalterBrightHub/WalterBrightHub.github.io.git
   branch: master
 
-# Material-X
-#favicon: favicon.ico
-
-# 页脚社交信息
-social:
-  - icon: fas fa-envelope
-    url: mailto:ssmbuild@outlook.com
-  - icon: fab fa-github
-    url: https://github.com/walterbrighthub
-  # - icon: fas fa-music
-  #   url: https://music.163.com/#/user/home?id=109874043
-  - icon: fas fa-compass
-    url: http://www.gitnavi.com/u/walterb/
-
-# 导航栏，建议以/结尾。
-menu:
-  - name: home
-    icon: fas fa-home
-  #   url: https://walterbright.cc/
-  # - name: blogs
-  #   icon: fas fa-rss
-    url: /
-  - name: categories
-    icon: fas fa-folder-open
-    url: categories/
-  - name: tags
-    icon: fas fa-hashtag
-    url: tags/
-  - name: archives
-    icon: fas fa-archive
-    url: archives/
-  - name: friends
-    icon: fas fa-users
-    url: friends/
-  - name: 关于
-    icon: fas fa-info-circle
-    url: about/
-
-# 侧边栏小部件
-widgets:
-  - widget: author
-    avatar: /images/avatars/walterbright.cc.jpg
-    jinrishici: false
-    title: 水明
-    body: '你他妈少在这里妖言惑众'
-    social: true
-  - widget: toc
-  # - widget: plain
-  #   icon: fas fa-bullhorn
-  #   title: 注意啦～
-  #   body: '本站使用 [Material X](https://xaoxuu.com/wiki/material-x/) 作为主题，喜欢这个主题的朋友可以阅读文档进行安装哦，超喜欢的话还可以安利给身边的朋友哦～'
-  #   more:
-  #     icon: fas fa-question-circle
-  #     url: https://xaoxuu.com/wiki/material-x/
-  - widget: category
-  - widget: tagcloud
-  # - widget: list
-  #   icon: fas fa-medal
-  #   title: 精选项目
-  #   more:
-  #     icon: fas fa-arrow-right
-  #     url: https://xaoxuu.com/projects/
-  #   rows:
-  #     - name: AXKit
-  #       desc: iOS开源库
-  #       icon: fas fa-cube
-  #       url: https://xaoxuu.com/wiki/axkit/
-  #     - name: NoticeBoard
-  #       desc: iOS开源库
-  #       icon: fas fa-cube
-  #       url: https://xaoxuu.com/wiki/noticeboard/
-  #     - name: HeartMate
-  #       desc: iOS应用程序
-  #       icon: fas fa-heartbeat
-  #       url: https://xaoxuu.com/heartmate/
-  #     - name: Material X
-  #       desc: Hexo博客主题
-  #       icon: fas fa-cube
-  #       url: https://xaoxuu.com/wiki/material-x/
-
-  # - widget: list
-  #   icon: fas fa-link
-  #   title: 特别链接
-  #   rows:
-  #     - name: 关于我 # / 留言板
-  #       icon: fas fa-comment-dots
-  #       url: about/
-  - widget: related_posts
-  - widget: music
-    icon: fas fa-compact-disc
-    title: "最近在听"
-    more:
-      icon: far fa-heart
-      url: https://music.163.com/#/user/home?id=109874043
-    server: netease   # netease（网易云音乐）tencent（QQ音乐） xiami（虾米） kugou（酷狗）
-    mode: random
-    type: playlist    # song （单曲） album （专辑） playlist （歌单） search （搜索）
-    id: 2724669959     # 歌曲/专辑/歌单 ID
-
-
-disqus_shortname: walterb
-
-footer: '浙ICP备17027810号'

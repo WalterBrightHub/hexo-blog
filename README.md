@@ -2,4 +2,4 @@
 
 ## 框架
 
-Hexo，主题使用mdui
+Hexo，主题使用[Volantis](volatis.js.org)
