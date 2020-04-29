@@ -1,9 +1,5 @@
-# WalterBrightHub
+# 水明的博客
 
-## 访问
+访问：[个人服务器](https://walterbright.cc)，[GitHub Page](https://walterbrighthub.github.io/)
 
-[WalterBright](https://walterbrighthub.github.io/)
-
-## 关于我
-
-前端
+使用Hexo构建的博客，主题使用[Volantis](https://volatis.js.org)
