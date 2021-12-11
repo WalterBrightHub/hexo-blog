@@ -79,6 +79,6 @@ theme: volantis-wb
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/WalterBrightHub/WalterBrightHub.github.io.git
+  repo: git@github.com:WalterBrightHub/WalterBrightHub.github.io.git
   branch: master
 
